@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+
+    <!--todo    Q1   -->
+
+    <a href="#" onclick="showAlert()">Event Link</a> 
+    <br/> 
+
+    <!-- todo  Q2 -->
+
+    <img width="200px" src="https://images.priceoye.pk/apple-iphone-14-pakistan-priceoye-3j7db.jpg" onclick="purchasingPhone()" alt="mobile img"> 
+    <img width="200px" src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlc3xlbnwwfHwwfHx8MA%3D%3D" onclick="purchasingPhone()" alt="Samsung Galaxy"> 
+    <img width="200px" src="https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/f21_pro/navigation/v2/Navigation-SunsetOrange-427_600-pc.png.thumb.webp" onclick="purchasingPhone()" alt="Oppo">
+    
+
+<!-- todo    Q3     -->
+
+    <table>
+        <tr>
+        <th>INDEX</th>
+        <th>NAME</th>
+        <th>SCORE</th>
+    </tr>
+    <tr id="tr1">
+        <td>0</td>
+        <td>John</td>
+        <td>10</td>
+        <td><button onclick="Deletea()">Delete</button></td>
+   </tr>
+    <tr id="tr2">
+        <td>1</td>
+        <td>AHMED</td>
+        <td>15</td>
+        <td><button onclick="Deleteb()">Delete</button></td>
+   </tr>
+    <tr id="tr3">
+        <td>2</td>
+        <td>ALI</td>
+        <td>20</td>
+        <td><button onclick="Deletec()">Delete</button></td>
+   </tr>
+    <tr id="tr4">
+        <td>3</td>
+        <td>HASSAN</td>
+        <td>25</td>
+        <td><button onclick="Deleted()">Delete</button></td>
+   </tr>
+    <tr id="tr5">
+        <td>4</td>
+        <td>USMAN</td>
+        <td>50</td>
+        <td><button onclick="DeleteE()">Delete</button></td>
+   </tr>
+    <tr id="tr6">
+        <td>5</td>
+        <td>HARIS</td>
+        <td>35</td>
+        <td><button onclick="DeleteF()">Delete</button></td>
+   </tr>
+    <tr id="tr7">
+        <td>6</td>
+        <td>BABAR</td>
+        <td>30</td>
+        <td><button onclick="DeleteG()">Delete</button></td>
+   </tr>
+   
+    </table>
+
+    <!-- todo   Q4   -->
+
+    <img id="bike" width="400px" onmouseout=" src = 'https://www.muthootcap.com/wp-content/uploads/2022/11/KTM-RC-200.jpg'"   onmouseover= "src = 'https://www.joyebike.com/product/beast/images/banner-img-mobile.png'" src="https://www.muthootcap.com/wp-content/uploads/2022/11/KTM-RC-200.jpg" alt="bike">
+
+    <!--  todo   Q5 -->
+
+    <h1>Counter</h1>
+
+    <p><b> Counter Value: </b> <span id="counter">0</span></p>
+  
+    <button onclick="increaseCounter()">Increase</button>
+    <button onclick="decreaseCounter()">Decrease</button>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
